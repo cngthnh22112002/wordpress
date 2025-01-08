@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import { Container, Typography, Box, Button } from '@mui/material';
-import RegisterDialog from '../../components/RegisterModal'; // Import modal component
+import RegisterDialog from '../../components/RegisterDialog'; // Import modal component
 
 export default function Home() {
   const [open, setOpen] = useState(false); // State to control modal visibility
