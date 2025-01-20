@@ -57,10 +57,16 @@ const RegisterDialog = ({ open, onClose }: RegisterDialogProps) => {
         </form>
       </DialogContent>
       <DialogActions>
-        <Button onClick={onClose} color="primary">
+        <Button
+          onClick={onClose}
+          className="bg-gray-500 hover:bg-gray-700 text-white px-4 py-2 rounded-md"
+        >
           Cancel
         </Button>
-        <Button onClick={onClose} color="primary">
+        <Button
+          onClick={onClose}
+          className="bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded-md"
+        >
           Submit
         </Button>
       </DialogActions>
