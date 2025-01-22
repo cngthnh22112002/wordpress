@@ -3,8 +3,8 @@ import { AppRouterCacheProvider } from '@mui/material-nextjs/v15-appRouter';
 import { Roboto } from 'next/font/google';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../styles/theme';
-import Header from '../components/Header'; 
-import Footer from '../components/Footer'; 
+import Header from '@/components/layout/sections/header';
+import Footer from '@/components/layout/sections/footer';
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
